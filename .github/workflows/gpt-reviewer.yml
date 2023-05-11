@@ -1,0 +1,10 @@
+name: GPT-Review
+
+on: push
+
+jobs:
+  eslint-check:
+    runs-on: ubuntu-latest
+    steps:
+     - name: gpt-review
+       uses: microsoft/gpt-review@v0.8.0
